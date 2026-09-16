@@ -1,0 +1,95 @@
+.food{
+    background-color: rgb(48, 37, 15);
+}
+.name{
+    font-family:'Jim Nightshade', cursive; 
+    text-align: center;
+    color: goldenrod;
+    font-size: 55px;
+    margin: 0 0 5px 0;
+}
+.subname{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: wheat;
+    margin: 0;
+}
+.menu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: wheat;
+    text-decoration: none;
+    margin: 15px
+}
+.section_1{
+    background-color: black;
+    padding: 10px;
+    margin: 20px;
+}
+.card_1 img,.card_2 img,.card_3 img,.card_4 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.card_1{
+    background-color: black;
+    color:goldenrod;
+    padding: 10px;
+}
+.card_2{
+    background-color: black;
+    color:goldenrod;
+    padding: 10px;
+}
+.card_3{
+    background-color: black;
+    color:goldenrod;
+    padding: 10px;
+}
+.card_4{
+    background-color: black;
+    color:goldenrod;
+    padding: 10px;
+}
+.card_1,.card_2,.card_3,.card_4{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+.card_1 p,.card_2 p,.card_3 p,.card_4 p{
+    color: wheat;
+}
+.card_1 button,.card_2 button,.card_3 button,.card_4 button{
+    background-color: goldenrod;
+}
+.section_2{
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.table{
+    margin: 0 auto;
+}
+.name_1,.age,.email{
+    background-color: goldenrod;
+    border: none;
+    color: black;
+}
+.send{
+    background-color: goldenrod;
+    width: 300px;
+}
+.form_name,.form_age,.form_email{
+    color: wheat;
+}
